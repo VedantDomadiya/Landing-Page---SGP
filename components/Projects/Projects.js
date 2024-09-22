@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { MENULINKS, PROJECTS } from "../../constants";
+import { PROJECTS } from "../../constants";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import ProjectTile from "./ProjectTile/ProjectTile";
@@ -82,7 +82,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
   return (
     <section
       ref={sectionRef}
-      id={MENULINKS[2].ref}
+      // id={MENULINKS[2].ref}
       className={`${
         isDesktop && "min-h-screen"
       } w-full relative select-none section-container transform-gpu`}
@@ -93,14 +93,13 @@ const Projects = ({ isDesktop, clientHeight }) => {
           ref={sectionTitleRef}
         >
           <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-            PROJECTS
+            SOFTWARE GROUP PROJECT
           </p>
           <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-            My Projects
+            Team Portfolios
           </h1>
           <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 staggered-reveal">
-            Some things I&apos;ve built with love, expertise and a pinch of
-            magical ingredients.{" "}
+            Select any Portfolio that you like{" "}
           </h2>
         </div>
         <div
