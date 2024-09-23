@@ -113,7 +113,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/medium-blur.webp",
     description: "Innovative Web Developer",
     gradient: ["#FFA62E", "#EA4D2C"],
-    url: "#",
+    url: "https://rohankatara.vercel.app/",
     tech: ["typescript", "react", "tailwindcss", "sanity.io"],
   },
   {
@@ -123,7 +123,7 @@ export const PROJECTS = [
     description:
       "Web Developer",
     gradient: ["#000066", "#6699FF"],
-    url: "#",
+    url: "https://devenrao.vercel.app/",
     tech: ["react", "chakra-ui", "alan"],
   },
 ];
