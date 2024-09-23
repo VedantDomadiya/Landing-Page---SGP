@@ -101,7 +101,7 @@ export const PROJECTS = [
   {
     name: "Vedant Domadiya",
     image: "/projects/vedant.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    blurImage: "/projects/blur/vedant.webp",
     description: "Aspiring Cloud & DevOps Engineer",
     gradient: ["#833AB4", "#FD1D1D", "#F56040"],
     url: "https://vedantdomadiya.vercel.app",
